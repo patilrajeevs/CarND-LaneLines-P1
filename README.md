@@ -3,6 +3,32 @@
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
+Even though the project requires completion using python in the notebook, out of my interest, I have implemented only the first first part of this project using C++. This reads a static image from the test_images folder, and marks the idnetified lane line.
+
+
+**Compile and build :**
+1. Ensure to add and compile, build and install the [utility repository](https://github.com/patilrajeevs/utility)
+2. Clone the repo.
+3. Create a directory, build, cd into the directory.
+```
+mkdir build
+cd build
+```
+4. Execute cmake
+```
+cmake ..
+```
+5. Make and install, after which the lane_lines binary will pick up one frame from the test_images folder and mark the line identified.
+```
+make
+sudo make install
+```
+
+Note : This has been verified on a ubuntu 16.04 machine, with GTX 980 GPU, CUDA version 10.2 and OpenCV version 4.1.2
+
+
+# -Below section is as present in Udacity's repository-
+
 Overview
 ---
 
